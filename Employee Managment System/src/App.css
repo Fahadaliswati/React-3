@@ -1,0 +1,265 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.top {
+  background: rgb(100, 65, 132);
+  color: white;
+}
+.top .logo {
+  color: white;
+}
+.top .name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-container {
+  width: 600px;
+  margin: 50px auto;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6a348c;
+  padding: 10px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form-header h2 {
+  margin: 0;
+}
+
+.back-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #45a049;
+}
+
+.employee-form {
+  padding: 20px;
+}
+
+.form {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form label span {
+  color: red;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form textarea {
+  height: 60px;
+  resize: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+/* Table container styling */
+.display {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 98%;
+  border-collapse: collapse;
+  border: 1px solid gray;
+  margin: auto;
+  margin-top: 10px;
+}
+
+thead {
+  background-color: #e4e3e3; /* Purple header */
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  color: #555;
+}
+
+td:last-child {
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button.view {
+  color: #007bff; /* Blue for view */
+}
+
+button.edit {
+  color: #ffc107; /* Yellow for edit */
+}
+
+button.delete {
+  color: #dc3545; /* Red for delete */
+}
+
+.submit-button {
+  background-color: #007bff; /* Green background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #007bff;
+}
+.table-bar {
+  background-color: #6a348c;
+  height: 50px;
+  width: 98;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.table {
+  text-align: center;
+}
+.delete-icon {
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.edit-icon {
+  color: #e7b621;
+  margin-right: 5px;
+}
+.newemployee {
+  display: flex;
+  background: #6a348c;
+  padding: 10px;
+  justify-content: space-between;
+  color: white;
+}
+.newemployee button {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.save {
+  margin-left: 280px;
+  margin-right: 300px;
+  margin-top: 30px;
+}
+
+.input-fields-education {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-fields-education .input-group {
+  margin-bottom: 15px;
+}
+
+.input-fields-education .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.input-fields-education .form-control:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.input-fields-education .btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+.select {
+  width: 560px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #555;
+  border-radius: 3px;
+  font-weight: 500;
+}
